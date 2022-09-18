@@ -4,7 +4,7 @@ project(SDL_Env_Test)
 set(CMAKE_CXX_STANDARD 11)
 
 #================== SDL =====================
-set(SDL2_DIR C:/mingw64)
+set(SDL2_DIR ${PROJECT_SOURCE_DIR}/SDL2-2.24.0)
 
 # 设置要包含的头文件的路径
 include_directories(${SDL2_DIR}/include)
